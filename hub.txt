@@ -2398,8 +2398,8 @@ Set:Slider("Farm Distnace", 0, 50, PosY, function(value)
     PosY = value
 end)
 
-TweenSpeed = 150
-Set:Slider("Player Tween Speed", 0, 350, TweenSpeed, function(value)
+TweenSpeed = 500
+Set:Slider("Player Tween Speed", 0, 500, TweenSpeed, function(value)
     TweenSpeed = value
 end)
 
